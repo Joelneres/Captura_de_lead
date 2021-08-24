@@ -1,0 +1,172 @@
+body {
+    font-family: "Poppins", sans-serif;
+    height: 100vh;
+    width: 100vw;
+    background-image: url("https://github.com/panda-satyabrata/hosting-images/blob/main/singup_form_bg_codepen.png?raw=true");
+  /*   background-repeat: no-repeat; */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.container-1{
+    flex: 1 1 50%;
+}
+.container-2{
+    margin-left: 8%;
+    flex: 1 1 50%;
+}
+.espaço-1{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 10% 0 20%;
+    color: #fff;
+}
+.titulo{
+    font-size: 48px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+.descriçao{
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+.espaço-2{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.promocion{
+    background-color: rgb(96, 85, 165);
+    width: 80%;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    align-content: center;
+    border-radius: 8px;
+    box-shadow: 0px 5px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+.promocion-2{
+    font-size: 12px;
+    font-weight: 400;
+}
+.promocion-1{
+    font-weight: 700;
+    font-size: 12px;
+}
+.form{
+    background-color: #fff;
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    padding-top: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 5px rgba(0, 0, 0, 0.2);
+}
+.form input{
+    width: 68%;
+    padding: 16px 25px 16px 25px;
+    margin-left: 10%;
+    margin-left: 10%;
+    align-self: center;
+    border: 1px solid rgb(185, 182, 211);
+    border-radius: 6px;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 20px;
+}
+.form input:focus {
+    border: 1px solid blue;
+}
+.form button{
+    width: 80%;
+    padding: 16px 25px 16px 25px;
+    margin-bottom: 20px;
+    margin-left: 10%;
+    margin-left: 10%;
+    align-self: center;
+    border-radius: 6px;
+    color: white;
+    background: rgb(56, 204, 140);
+    border: none;
+}
+.form-btn:focus {
+    cursor: pointer;
+}
+  
+.form p {
+    width: 80%;
+    font-size: 10px;
+    padding: 0 25px 16px 25px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: 10%;
+    margin-left: 10%;
+  }
+  
+.terms {
+    color: rgb(185, 182, 211);
+}
+  
+.terms-highlight {
+    color: rgb(255, 122, 122);
+    font-weight: 600;
+}
+@media screen and (max-width:900px){
+    .promocion{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 24px;
+    }
+    .form{
+        width: 80%;
+        padding: 16px;
+        margin-left: 10%;
+        margin-left: 10%;
+        align-self: center;
+    }
+    .form input{
+        width: 80%;
+        padding: 16px;
+        margin-left: 10%;
+        margin-left: 10%;
+        align-self: center;
+    }
+    .form button {
+        width: 80%;
+        padding: 16px;
+        margin-left: 10%;
+        margin-left: 10%;
+        align-self: center;
+      }
+    
+      .form p {
+        width: 80%;
+        margin-left: 10%;
+        margin-left: 10%;
+      }
+}
+@media screen and (max-width: 600px) {
+    body {
+        background-image: url("https://github.com/panda-satyabrata/hosting-images/blob/main/singup_form_bg_mobile_codepen.png?raw=true");
+      }
+    .container{
+        flex-direction: column;
+        display: flex;
+    }
+    .espaço-1{
+        height: 60vh;
+        padding: 0 10% 0 10%;
+    }
+}
